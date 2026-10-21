@@ -1,0 +1,113 @@
+# Site settings
+title: ""
+masthead_title: ""   # text shown top-left
+email: namanchawla2404@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  AI/ML Engineer building LLM agents and diffusion-based video generation systems.
+og_image: /assets/img/prof_pic.jpg
+icon: favicon.jpg
+twitter_username: palindromeRice
+github_username: palindromeRice
+minimal_mistakes_skin: dirt
+search: false
+
+# Build settings
+url: "https://palindromerice.github.io"
+baseurl: ""
+markdown: kramdown
+remote_theme: mmistakes/minimal-mistakes
+encoding: utf-8
+sass:
+  sass_dir: _sass
+  style: compressed
+# Outputting
+permalink: /:categories/:title/
+timezone: Asia/Kolkata # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+include:
+  - _pages
+  - CNAME
+
+exclude:
+  - vendor
+  - Gemfile
+  - Gemfile.lock
+  - .remember
+  - README.md
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jekyll-include-cache
+
+author:
+  name   : ""
+  avatar : "/assets/img/prof_pic.jpg"
+  bio    : "AI/ML Engineer"
+  location: "New Delhi, India"
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/naman-chawla-0563032b5/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://x.com/palindromeRice"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/palindromeRice"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=Hq_k3_wAAAAJ"
+
+footer:
+  links:
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/naman-chawla-0563032b5/"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://x.com/palindromeRice"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/palindromeRice"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: false
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+
+# (optional, keeps the sidebar bio visible on every page)
+defaults:
+  -
+    scope:
+      path: ""        # everything
+    values:
+      page_js:
+        - /assets/js/video-toggle.js
+
+# -----------------------------------------------------------------------------
+# Analytics
+# -----------------------------------------------------------------------------
+
+# Google Analytics (uncomment and add your tracking ID to enable)
+# enable_google_analytics: false
+# google_analytics: "UA-XXXXXXXXX-X"
+

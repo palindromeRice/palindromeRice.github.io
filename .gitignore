@@ -1,0 +1,27 @@
+# Jekyll build output and caches
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+
+# Ruby / Bundler (CI resolves gems fresh from Gemfile)
+.bundle
+vendor
+Gemfile.lock
+.ruby-version
+
+# OS / editor
+.DS_Store
+.idea
+.vscode
+*.swp
+
+# Secrets
+.env
+.env.*
+
+# Local tooling (Claude Code, Playwright screenshots)
+CLAUDE.md
+.claude
+.remember
+.playwright-mcp

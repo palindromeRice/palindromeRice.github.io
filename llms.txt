@@ -1,0 +1,32 @@
+# Naman Chawla
+
+> AI/ML Engineer at Coding Blocks in New Delhi, India. Builds AI products end-to-end on top of large language and generative models: agents, assistants, voice and video AI, and the deployment and GPU infrastructure that runs them in production. Outside of work: research papers and side projects on reinforcement learning, quantization, and distillation.
+
+## Pages
+
+- [Home](https://palindromerice.github.io/): About Naman, with contact and social links
+- [Writing](https://palindromerice.github.io/writing/): Published research papers and LinkedIn posts
+- [Projects](https://palindromerice.github.io/projects/): Personal ML projects with code
+
+## Papers
+
+- [ClickGuard: A Trustworthy Adaptive Fusion Framework for Clickbait Detection](https://arxiv.org/abs/2604.07272): arXiv, 2026
+- [Skin Cancer Classification Using Ensemble of Deep Learning Models and Transfer Learning](https://doi.org/10.1007/978-3-032-30438-4_45): LNNS, 2026
+- [Decoding Sarcasm: Leveraging GloVe and LSTM for Accurate Sentiment Understanding](https://doi.org/10.1201/9781003654483-68): CRC Press, 2025
+- [Hybrid Model Approaches Toward Movie Recommendation Systems and Their Comparisons](https://link.springer.com/chapter/10.1007/978-981-99-6547-2_49): LNNS, 2024
+- [Unveiling Emotions Through Sentiment Analysis](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5023927): SSRN
+- [Gesture-Based Touchless Operations: MediaPipe, OpenCV](https://dergi.neu.edu.tr/index.php/aiit/article/view/799): AIIT
+
+## Projects
+
+- [Single-Bit Quantization of Transformers/BERT](https://github.com/palindromeRice/SingleBitLLMs): Benchmarks single-bit/ternary quantization strategies inspired by BitNet b1.58 on BERT
+- [T5 Knowledge Distillation for Summarization](https://github.com/palindromeRice/Knowledge_Distillation_T5): Distills a fine-tuned T5-Base summarizer into T5-Small
+- [Mixture-of-Experts Prompt Router](https://github.com/palindromeRice/Moe_demo): Routes prompts to specialized expert models via sentence-embedding similarity
+
+## Contact
+
+- [Email](mailto:namanchawla2404@gmail.com)
+- [GitHub](https://github.com/palindromeRice)
+- [LinkedIn](https://www.linkedin.com/in/naman-chawla-0563032b5/)
+- [X](https://x.com/palindromeRice)
+- [Google Scholar](https://scholar.google.com/citations?user=Hq_k3_wAAAAJ&hl=en)

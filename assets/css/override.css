@@ -1,0 +1,324 @@
+/* Color theme variables */
+:root {
+  --primary-color: #9b8a76;
+  --link-color: #9b8a76;
+  --background-color: #F9F9F9;
+}
+
+/* Brand-blue text selection, consistent with the blog posts.
+   !important is required: the theme's ::selection{background:#000} is loaded
+   after this file (override.css is @imported at the top of main.css). */
+::selection { background: #2437e7 !important; color: #fff !important; }
+::-moz-selection { background: #2437e7 !important; color: #fff !important; }
+
+/* Base body styles */
+body {
+  background-color: var(--background-color);
+  font-family: 'Cormorant Garamond', 'EB Garamond', serif !important;
+  color: var(--text-color);
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* Content area styles */
+.page__content,
+.initial-content,
+.page,
+.archive,
+.layout--home,
+.layout--single,
+.layout--splash {
+  background-color: var(--background-color);
+}
+
+/* Container layout */
+.container-fluid {
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1220px;
+}
+
+/* Profile picture and social buttons positioning */
+.intro-left {
+  margin-top: 0; /* Remove negative margin for better mobile compatibility */
+}
+
+/* Make profile picture bigger */
+.intro-avatar {
+  width: 220px !important;
+  height: 220px !important;
+}
+
+/* Update container width to match new profile picture size */
+.intro-left {
+  width: 220px !important;
+}
+
+/* Social links as clean text (Twitter / CV / Google Scholar / Email / LinkedIn) */
+.social-links {
+  width: auto !important;
+  margin-top: 1.1rem;
+  font-family: 'Cormorant Garamond', 'EB Garamond', serif !important;
+  font-size: 1.1rem !important;
+  line-height: 1.6;
+  white-space: nowrap;      /* keep all links on one line; no mid-label wrap */
+  color: #9aa4b2;           /* the " / " separators */
+}
+
+/* inherit the exact link style used in the bio paragraphs (base `a` rule) */
+.social-links a {
+  font-size: inherit !important;
+  opacity: 1 !important;
+  margin-right: 0 !important;
+}
+
+/* Footer styles */
+.page__footer {
+  background-color: var(--background-color);
+  color: #3d3d3d;
+}
+
+.page__footer footer {
+  background-color: var(--background-color);
+  color: #3d3d3d;
+}
+
+/* Header visibility overrides */
+.masthead__inner-wrap .title,
+.greedy-nav .site-title,
+a.site-title,
+.masthead .site-title,
+.navbar-brand.title {
+  display: none !important;
+  visibility: hidden !important;
+}
+
+.greedy-nav__toggle,
+.masthead__menu-item,
+.visible-links,
+.navbar-toggler {
+  display: none !important;
+}
+
+/* Layout adjustments */
+.mt-5 {
+  margin-top: 0 !important;
+}
+
+.container {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.navbar {
+  display: none !important;
+}
+
+.header-container {
+  width: 100%;
+  /* nudge the name left so every page (home, posts, papers) aligns identically */
+  margin-left: -1.25rem;
+  padding-left: 1.25rem;
+}
+
+/* Typography settings */
+p, li, span, div, a, figcaption {
+  font-family: 'Cormorant Garamond', 'EB Garamond', serif !important;
+}
+
+/* Navigation styling */
+.nav-link {
+  font-size: 1.5rem !important;
+  font-family: 'Cormorant Garamond', 'EB Garamond', serif !important;
+  font-weight: 400 !important;
+}
+
+/* Intro text styling */
+.page__content .intro-text p,
+.intro-text p {
+  font-family: 'Cormorant Garamond', 'EB Garamond', serif !important;
+  font-size: 1.1rem !important;
+  line-height: 1.5 !important;
+  color: var(--text-color) !important;
+}
+
+/* Heading styles */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cormorant Garamond', 'EB Garamond', serif !important;
+  font-weight: 400 !important;
+}
+
+/* Form element styles */
+button, input, select, textarea {
+  font-family: 'Cormorant Garamond', 'EB Garamond', serif !important;
+}
+
+/* Mobile responsive fixes */
+@media (max-width: 767px) {
+  /* Fix profile photo centering on mobile */
+  .intro-flex {
+    flex-direction: column;
+    align-items: center;
+    padding: 0 1rem;
+  }
+  
+  .intro-left {
+    margin: 0 auto 2rem auto;
+  }
+  
+  .intro-text {
+    text-align: left;
+    width: 100%;
+    padding: 0 0.5rem;
+  }
+  
+  /* Adjust profile picture size on mobile */
+  .intro-avatar {
+    width: 180px !important;
+    height: 180px !important;
+  }
+  
+  /* Adjust profile column width */
+  .intro-left {
+    width: 180px !important;
+  }
+  
+  /* Better spacing for intro text on mobile */
+  .page__content .intro-text p,
+  .intro-text p {
+    font-size: 1rem !important;
+    margin-bottom: 1rem;
+  }
+  
+  /* Container adjustments for mobile */
+  .container-fluid {
+    padding-right: 1rem;
+    padding-left: 1rem;
+  }
+  
+  /* Navigation font size adjustment */
+  .nav-link {
+    font-size: 1.2rem !important;
+  }
+}
+
+/* Small mobile devices (< 400px) */
+@media (max-width: 399px) {
+  /* Further reduce profile picture on very small screens */
+  .intro-avatar {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  
+  .intro-left {
+    width: 150px !important;
+  }
+  
+  /* Reduce font sizes */
+  .author-name {
+    font-size: 1.75rem !important;
+  }
+  
+  .nav-link {
+    font-size: 1rem !important;
+  }
+  
+  .page__content .intro-text p,
+  .intro-text p {
+    font-size: 0.95rem !important;
+  }
+}
+
+/* Service section styling */
+.service-title {
+  color: #1e3a8a;
+  font-weight: 400;
+}
+
+.service-title a {
+  color: #1e3a8a !important;
+  text-decoration: none !important;
+  border-bottom: none !important;
+}
+
+.service-title a:hover {
+  text-decoration: underline !important;
+  border-bottom: none !important;
+}
+
+/* Remove bullet points from service list and match publications format */
+#service-list {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+  margin-top: 0;   /* match #papers-list so the first item hugs the 02 marker like 01 */
+}
+
+#service-list li {
+  text-indent: -1.25rem;     /* hanging indent like publications */
+  padding-left: 1.25rem;     /* match publications indent */
+  margin-bottom: 1.5rem;
+}
+
+/* ---- Home page vertical rails (Cognition-style ticker lines) ----
+   Far-left rail runs the full height of the content; the middle rail
+   divides the photo column from the text but stops at the end of the
+   intro section. Each starts with a bold 14px tick, then a 1px hairline. */
+.home-frame {
+  position: relative;
+}
+
+/* header rule: flush against the frame top and extended left to meet the
+   far-left rail, so the top of the grid is one connected corner (home only) */
+.home-header {
+  margin-bottom: 0 !important;   /* rails start flush at the header line */
+  border-bottom-color: #e7e9ee !important;
+}
+
+/* intro (bio) section — hosts the "01" marker */
+.intro-section {
+  position: relative;
+  padding-top: 2rem;      /* content breathing room */
+  padding-bottom: 2.5rem; /* space above the Status quo line */
+  margin-bottom: 0;
+}
+
+/* far-left rail — full height; meets the header line (top) and every
+   horizontal divider on the left */
+.home-frame::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -1.25rem;
+  width: 2px;
+  background:
+    linear-gradient(#b3b8c2, #b3b8c2) 0 0 / 2px 14px no-repeat,
+    linear-gradient(#e7e9ee, #e7e9ee) 0.5px 14px / 1px calc(100% - 14px) no-repeat;
+  pointer-events: none;
+}
+
+/* Status quo divider — sits close to the heading and extends left to the rail */
+.status-quo-heading {
+  position: relative;
+  border-top: 1px solid #e7e9ee;
+  margin-top: 0;
+  padding-top: 0.9rem;
+  margin-left: -1.25rem;
+  padding-left: 1.25rem;
+}
+
+/* the rail is a desktop device; drop it once the layout stacks */
+@media (max-width: 767px) {
+  .home-frame::before {
+    display: none;
+  }
+  .header-container,
+  .status-quo-heading {
+    margin-left: 0;
+    padding-left: 0;
+  }
+}
