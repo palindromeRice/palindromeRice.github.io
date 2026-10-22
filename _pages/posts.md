@@ -18,6 +18,7 @@ permalink: /writing/
 <div class="posts-layout">
   <nav class="posts-filter" aria-label="Post type filter">
     <button class="filter-item is-active" data-filter="blog">Papers</button>
+    <button class="filter-item" data-filter="articles">Articles</button>
     <button class="filter-item" data-filter="thoughts">Posts</button>
     <button class="filter-item" data-filter="all">All</button>
   </nav>
@@ -53,6 +54,11 @@ permalink: /writing/
     <span class="blog-date">AIIT</span>
   </div>
 
+  <div class="blog-entry" data-type="articles">
+    <a href="/writing/capl/" class="blog-title">Building CAPL: Context-Aware Preference Rules for a Frozen LLM</a>
+    <span class="blog-date">10.23.26</span>
+  </div>
+
   <div class="blog-entry" data-type="thoughts">
     <a href="https://www.linkedin.com/posts/naman-chawla-0563032b5_ai-machinelearning-quantization-share-7329875085433991169-ebNV/" class="blog-title" target="_blank" rel="noopener">Single-Bit Quantization in NLP: An Experiment with BitNet b1.58</a>
     <span class="blog-date">05.18.25</span>
@@ -77,7 +83,7 @@ document.addEventListener('DOMContentLoaded', function () {
   var buttons = document.querySelectorAll('.posts-filter .filter-item');
   var entries = document.querySelectorAll('.blog-entry');
   var list = document.querySelector('.blog-list');
-  var sectionNumbers = { blog: '01', thoughts: '02', all: '03' };
+  var sectionNumbers = { blog: '01', articles: '02', thoughts: '03', all: '04' };
   function apply(f) {
     var firstVisibleSet = false;
     entries.forEach(function (e) {
@@ -95,7 +101,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (list) list.setAttribute('data-section', sectionNumbers[f] || '01');
     // Scholar link only makes sense where papers are listed
     var more = document.querySelector('.blog-more');
-    if (more) more.style.display = (f === 'thoughts') ? 'none' : '';
+    if (more) more.style.display = (f === 'blog' || f === 'all') ? '' : 'none';
   }
   buttons.forEach(function (btn) {
     btn.addEventListener('click', function () {
