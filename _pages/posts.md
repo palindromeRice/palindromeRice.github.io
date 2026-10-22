@@ -20,7 +20,6 @@ permalink: /writing/
     <button class="filter-item is-active" data-filter="blog">Papers</button>
     <button class="filter-item" data-filter="articles">Articles</button>
     <button class="filter-item" data-filter="thoughts">Posts</button>
-    <button class="filter-item" data-filter="all">All</button>
   </nav>
 
   <div class="blog-list" data-section="01">
@@ -83,11 +82,11 @@ document.addEventListener('DOMContentLoaded', function () {
   var buttons = document.querySelectorAll('.posts-filter .filter-item');
   var entries = document.querySelectorAll('.blog-entry');
   var list = document.querySelector('.blog-list');
-  var sectionNumbers = { blog: '01', articles: '02', thoughts: '03', all: '04' };
+  var sectionNumbers = { blog: '01', articles: '02', thoughts: '03' };
   function apply(f) {
     var firstVisibleSet = false;
     entries.forEach(function (e) {
-      var visible = (f === 'all' || e.getAttribute('data-type') === f);
+      var visible = e.getAttribute('data-type') === f;
       e.style.display = visible ? '' : 'none';
       // Tag the first *visible* entry so its top spacing can be trimmed to hug
       // the tabs. :first-child can't do this because filtered-out entries are
@@ -101,7 +100,7 @@ document.addEventListener('DOMContentLoaded', function () {
     if (list) list.setAttribute('data-section', sectionNumbers[f] || '01');
     // Scholar link only makes sense where papers are listed
     var more = document.querySelector('.blog-more');
-    if (more) more.style.display = (f === 'blog' || f === 'all') ? '' : 'none';
+    if (more) more.style.display = (f === 'blog') ? '' : 'none';
   }
   buttons.forEach(function (btn) {
     btn.addEventListener('click', function () {
