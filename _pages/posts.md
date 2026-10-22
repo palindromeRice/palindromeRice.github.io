@@ -45,12 +45,12 @@ permalink: /writing/
 
   <div class="blog-entry" data-type="blog">
     <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5023927" class="blog-title" target="_blank" rel="noopener">Unveiling Emotions Through Sentiment Analysis</a>
-    <span class="blog-date">SSRN</span>
+    <span class="blog-date">SSRN · 2024</span>
   </div>
 
   <div class="blog-entry" data-type="blog">
     <a href="https://dergi.neu.edu.tr/index.php/aiit/article/view/799" class="blog-title" target="_blank" rel="noopener">Gesture-Based Touchless Operations: MediaPipe, OpenCV</a>
-    <span class="blog-date">AIIT</span>
+    <span class="blog-date">AIIT · 2023</span>
   </div>
 
   <div class="blog-entry" data-type="articles">
