@@ -13,7 +13,7 @@ layout: splash
 </div>
 
 <article class="article">
-  {%- if page.date %}<p class="article-date">{{ page.date | date: "%B %-d, %Y" }}</p>{% endif %}
+  {%- if page.date %}<p class="article-date">{{ page.date | date: "%d/%m/%Y" }}</p>{% endif %}
   {{ content }}
 </article>
 

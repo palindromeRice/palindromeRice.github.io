@@ -3,7 +3,7 @@ layout: article
 title: "Training a Small Browser Agent: SFT and GRPO on a 0.8B Model"
 description: "On a simple browser task, a 0.8B model went from 16% to 84% exact success with self-generated demonstrations and 20 GRPO updates, on a single GPU."
 permalink: /writing/browser-agent-sft-grpo/
-date: 2026-10-22
+date: 2026-10-23
 math: true
 ---
 # Training a Small Browser Agent: SFT and GRPO on a 0.8B Model
