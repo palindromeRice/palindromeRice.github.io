@@ -111,3 +111,7 @@ defaults:
 # enable_google_analytics: false
 # google_analytics: "UA-XXXXXXXXX-X"
 
+
+# GoatCounter analytics (privacy-friendly, no cookies)
+goatcounter:
+  site_id: palindromerice
