@@ -54,12 +54,12 @@ permalink: /writing/
   </div>
 
   <div class="blog-entry" data-type="articles">
-    <a href="/writing/capl/" class="blog-title">Building CAPL: Context-Aware Preference Rules for a Frozen LLM</a>
+    <a href="/writing/browser-agent-sft-grpo/" class="blog-title">Training a Small Browser Agent: SFT and GRPO on a 0.8B Model</a>
     <span class="blog-date">23/10/2026</span>
   </div>
 
   <div class="blog-entry" data-type="articles">
-    <a href="/writing/browser-agent-sft-grpo/" class="blog-title">Training a Small Browser Agent: SFT and GRPO on a 0.8B Model</a>
+    <a href="/writing/capl/" class="blog-title">Building CAPL: Context-Aware Preference Rules for a Frozen LLM</a>
     <span class="blog-date">23/10/2026</span>
   </div>
 
