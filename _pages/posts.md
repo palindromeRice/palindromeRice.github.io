@@ -54,6 +54,11 @@ permalink: /writing/
   </div>
 
   <div class="blog-entry" data-type="articles">
+    <a href="/writing/quake2-reconstruction/" class="blog-title">Agent-Assisted Reconstruction of Quake II Gameplay Code</a>
+    <span class="blog-date">23/10/2026</span>
+  </div>
+
+  <div class="blog-entry" data-type="articles">
     <a href="/writing/browser-agent-sft-grpo/" class="blog-title">Small Models as Agents: SFT and GRPO on a Browser Task</a>
     <span class="blog-date">23/10/2026</span>
   </div>
