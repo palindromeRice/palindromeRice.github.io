@@ -58,6 +58,11 @@ permalink: /writing/
     <span class="blog-date">10.23.26</span>
   </div>
 
+  <div class="blog-entry" data-type="articles">
+    <a href="/writing/browser-agent-sft-grpo/" class="blog-title">Training a Small Browser Agent: SFT and GRPO on a 0.8B Model</a>
+    <span class="blog-date">10.22.26</span>
+  </div>
+
   <div class="blog-entry" data-type="thoughts">
     <a href="https://www.linkedin.com/posts/naman-chawla-0563032b5_ai-machinelearning-quantization-share-7329875085433991169-ebNV/" class="blog-title" target="_blank" rel="noopener">Single-Bit Quantization in NLP: An Experiment with BitNet b1.58</a>
     <span class="blog-date">05.18.25</span>
