@@ -1,25 +1,10 @@
 ---
-layout: splash
+layout: article
 title: "Building CAPL: context-aware preference rules for a frozen LLM"
 description: "An implementation study inspired by preference agents, exploring how response preferences can be tied to the situations in which they apply."
 permalink: /writing/capl/
+date: 2026-10-23
 ---
-
-<div class="header-container">
-  <div class="name-container">
-    <h1 class="author-name">Naman Chawla</h1>
-  </div>
-  <div class="navigation-container">
-    <a href="/" class="nav-link">Home</a>
-    <a href="/writing/" class="nav-link">Writing</a>
-    <a href="/projects" class="nav-link">Projects</a>
-  </div>
-</div>
-
-<article class="article" markdown="1">
-
-<p class="article-date">October 23, 2026</p>
-
 # Building CAPL: context-aware preference rules for a frozen LLM
 
 I came across [*Unsupervised Human Preference Learning*](https://huggingface.co/papers/2410.03731) on Hugging Face. Its central idea gave me a useful way to think about personalization: a small preference agent can produce natural-language rules that guide a larger model.
@@ -182,29 +167,3 @@ The runner also has a resume-aggregation limitation: it restores saved records f
 ## Reference
 
 Sumuk Shashidhar, Abhinav Chinta, Vaibhav Sahai, and Dilek Hakkani-Tür. 2024. [*Unsupervised Human Preference Learning*](https://aclanthology.org/2024.emnlp-main.200/). EMNLP 2024. [Hugging Face paper page](https://huggingface.co/papers/2410.03731).
-
-</article>
-
-<style>
-.article { max-width: 720px; margin: 2rem auto 8rem; padding: 0 1rem; line-height: 1.7; }
-.article h1 { font-size: 2rem; line-height: 1.25; margin: 0 0 1.75rem; }
-.article h2 { margin-top: 2.5rem; }
-.article img { max-width: 100%; height: auto; display: block; margin: 1.5rem auto 0.5rem; }
-.article table { display: table; width: 100%; border-collapse: collapse; margin: 1.25rem 0; }
-@media (max-width: 600px) { .article table { display: block; overflow-x: auto; } }
-.article p, .article li { font-size: 1.1rem !important; color: var(--text-color); }
-/* override.css only sets the site serif on p/li/span/div/a; tables fell back to sans */
-.article th, .article td { font-family: 'Cormorant Garamond', 'EB Garamond', serif !important; font-size: 1.05rem; font-variant-numeric: lining-nums tabular-nums; padding: 0.45rem 0.7rem; border-bottom: 1px solid #eef0f3; text-align: left; }
-.article th { font-weight: 500; color: #1a202c; border-bottom-color: #b3b8c2; }
-.article td[style*="right"], .article th[style*="right"] { text-align: right !important; }
-.article a { color: #043976; }
-.article .highlighter-rouge { background: transparent; margin: 1.25rem 0; }
-.article .code-display-wrapper { position: relative; }
-.article pre { white-space: pre-wrap; word-break: break-word; }
-.article .code-display-wrapper .copy { position: absolute; border: none; opacity: 0; cursor: pointer; background: transparent; color: #8a919c; font-size: 0.8rem; padding: 0.2rem 0.35rem; top: 0.4rem; right: 0.4rem; transition: opacity 0.15s ease, color 0.15s ease; }
-.article .code-display-wrapper:hover .copy, .article .code-display-wrapper .copy:focus-visible { opacity: 0.6; color: #c6ccd4; }
-.article .code-display-wrapper .copy:hover { opacity: 1; color: #f8f8f2; }
-.article .article-date { margin: 0 0 0.4rem; text-transform: uppercase; font-family: 'SFMono-Regular', Menlo, Consolas, monospace !important; font-size: 0.75rem !important; color: #9aa4b2; letter-spacing: 0.02em; }
-.article pre { overflow-x: auto; padding: 1rem; background: #272822; color: #f8f8f2; border-radius: 4px; font-size: 0.78rem; line-height: 1.6; }
-.article pre, .article pre *, .article code { font-family: 'SFMono-Regular', Menlo, Consolas, monospace !important; }
-</style>
