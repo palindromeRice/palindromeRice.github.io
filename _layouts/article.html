@@ -15,6 +15,20 @@ layout: splash
 <article class="article">
   {%- if page.date %}<p class="article-date">{{ page.date | date: "%d/%m/%Y" }}</p>{% endif %}
   {{ content }}
+
+  {%- assign slug = page.permalink | split: "/" | last %}
+  <section class="article-cite">
+    <h2>Cite this article</h2>
+    <p>Naman Chawla. {{ page.date | date: "%Y" }}. <em>{{ page.title }}</em>. {{ site.url }}{{ page.permalink }}</p>
+<pre>@misc{chawla{{ page.date | date: "%Y" }}{{ slug | remove: "-" }},
+  author       = {Naman Chawla},
+  title        = { {{- page.title -}} },
+  year         = { {{- page.date | date: "%Y" -}} },
+  howpublished = {\url{ {{- site.url }}{{ page.permalink -}} }},
+  note         = {Licensed under CC BY 4.0}
+}</pre>
+    <p>Text, figures and results are licensed under <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener" target="_blank">CC BY 4.0</a>. Reuse is welcome with credit and a link to this page.</p>
+  </section>
 </article>
 
 {%- if page.math %}

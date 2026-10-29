@@ -64,7 +64,7 @@ permalink: /writing/
   </div>
 
   <div class="blog-entry" data-type="articles">
-    <a href="/writing/capl/" class="blog-title">Building CAPL: Context-Aware Preference Rules for a Frozen LLM</a>
+    <a href="/writing/capl/" class="blog-title">CAPL: Context-Aware Preference Rules for Steering a Frozen LLM</a>
     <span class="blog-date">23/10/2026</span>
   </div>
 
