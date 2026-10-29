@@ -17,6 +17,30 @@ permalink: /projects/
 
 <div class="proj-page">
   <div class="proj-grid">
+    <div class="proj-card">
+      <a href="https://github.com/palindromeRice/capl" target="_blank" rel="noopener">
+        <img src="/assets/img/projects/capl.jpg" alt="CAPL: Context-Aware Preference Rules for Steering a Frozen LLM" loading="lazy">
+        <span class="proj-title">CAPL: Context-Aware Preference Rules for Steering a Frozen LLM</span>
+      </a>
+      <div class="proj-desc">A small model writes context-scoped preference rules that steer a frozen 9B generator; 71.25% style-rule satisfaction vs 58.33% for a static profile · 2026</div>
+      <div class="proj-links"><a href="https://github.com/palindromeRice/capl" target="_blank" rel="noopener">Code</a></div>
+    </div>
+    <div class="proj-card">
+      <a href="https://github.com/palindromeRice/quake2-llm-decompile" target="_blank" rel="noopener">
+        <img src="/assets/img/projects/quake2.jpg" alt="Agent-Assisted Reconstruction of Quake II Gameplay Code" loading="lazy">
+        <span class="proj-title">Agent-Assisted Reconstruction of Quake II Gameplay Code</span>
+      </a>
+      <div class="proj-desc">Coding agents rewrite decompiled Quake II gameplay functions in C; 99.0% pass a differential harness and the rebuilt module is playable · 2026</div>
+      <div class="proj-links"><a href="https://github.com/palindromeRice/quake2-llm-decompile" target="_blank" rel="noopener">Code</a></div>
+    </div>
+    <div class="proj-card">
+      <a href="https://github.com/palindromeRice/openEnvRL" target="_blank" rel="noopener">
+        <img src="/assets/img/projects/browser-agent.jpg" alt="Small Models as Agents: SFT and GRPO on a Browser Task" loading="lazy">
+        <span class="proj-title">Small Models as Agents: SFT and GRPO on a Browser Task</span>
+      </a>
+      <div class="proj-desc">SFT then online GRPO in a live browser takes Qwen3.5-0.8B from 16% to 84% exact-match success on MiniWoB++ click-checkboxes · 2026</div>
+      <div class="proj-links"><a href="https://github.com/palindromeRice/openEnvRL" target="_blank" rel="noopener">Code</a></div>
+    </div>
 
     <div class="proj-card">
       <a href="https://github.com/palindromeRice/SingleBitLLMs" target="_blank" rel="noopener">
