@@ -34,6 +34,7 @@ exclude:
   - Gemfile.lock
   - .remember
   - README.md
+  - docs
 
 # Plugins (previously gems:)
 plugins:
