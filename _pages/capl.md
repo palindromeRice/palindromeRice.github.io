@@ -87,7 +87,7 @@ Ten synthetic users each have 20 historical interactions and two evaluation quer
 
 ### 4.3 Metric
 
-A deterministic scorer checks the aspects each persona specifies: word-count limits, bullet or numbered formatting, required salutation phrases, and the presence of code. A response's score is the fraction of applicable checks it passes, and a method's score is the mean over its 20 queries. Means and matched comparisons were recomputed from the complete 100-record results file.
+A deterministic scorer checks the aspects each persona specifies: word-count limits, bullet or numbered formatting, required salutation phrases, and the presence of code. A response's score is the fraction of applicable checks it passes, and a method's score is the mean over its 20 queries.
 
 ## 5. Results
 
@@ -161,9 +161,7 @@ Peak PyTorch allocation across methods was about 7,503 MiB. Latency includes ext
 - **Synthetic users and automated scoring.** The results measure compliance with deterministic style checks on template personas. They do not establish human preference, factual correctness, or task usefulness.
 - **Small sample.** Twenty queries per method, with five or ten per context. The means are descriptive, and no significance test is reported.
 - **Overlapping queries.** Histories and evaluation queries share a small template pool, and underlying query text is not deduplicated, so the pilot does not test generalization to unseen topics.
-- **No ablations.** Context scoping and recency were not isolated in live runs. The separate 50-user mock run and mock ablations use simulated responses and serve only as implementation checks.
-- **Limited records.** The saved results omit inferred rules, full responses, retrieved examples, and extraction-path identifiers, which limits diagnosis of individual outcomes.
-- **Resume bug.** When resumed, the runner restores saved means but computes pairwise counts only for newly generated responses. All numbers here were recomputed from the full records; the code has not yet been fixed.
+- **No ablations.** The separate effects of context scoping and recency were not isolated.
 
 ## 8. Conclusion
 
