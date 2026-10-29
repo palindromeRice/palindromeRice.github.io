@@ -115,3 +115,8 @@ defaults:
 # GoatCounter analytics (privacy-friendly, no cookies)
 goatcounter:
   site_id: palindromerice
+
+footer_text: >
+  &copy; Naman Chawla. Text, figures and results are licensed under
+  <a href="https://creativecommons.org/licenses/by/4.0/" rel="license noopener" target="_blank">CC BY 4.0</a>;
+  reuse requires credit and a link to the source.
