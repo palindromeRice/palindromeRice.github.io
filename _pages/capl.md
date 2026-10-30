@@ -169,7 +169,7 @@ CAPL gives preference rules an explicit applicability condition and evidence tra
 
 ## Code Availability
 
-The code and evaluation records are not yet public.
+The code and evaluation records are available at [https://github.com/palindromeRice/capl](https://github.com/palindromeRice/capl).
 
 ## References
 
