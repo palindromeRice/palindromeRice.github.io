@@ -5,8 +5,15 @@
 ## Pages
 
 - [Home](https://palindromerice.github.io/): About Naman, with contact and social links
-- [Writing](https://palindromerice.github.io/writing/): Published research papers and LinkedIn posts
+- [Writing](https://palindromerice.github.io/writing/): Articles, published research papers and LinkedIn posts
 - [Projects](https://palindromerice.github.io/projects/): Personal ML projects with code
+
+## Articles
+
+- [I Keep Losing My TV Remote, So I Turned My Mac Into One](https://palindromerice.github.io/writing/lgtv-remote/): A Mac menu-bar remote for LG webOS TVs over the local network, 2026
+- [Agent-Assisted Reconstruction of Quake II Gameplay Code](https://palindromerice.github.io/writing/quake2-reconstruction/): Coding agents rebuild Quake II's gameplay module from stripped binaries; 99.0% of testable functions match and the module is playable, 2026
+- [Small Models as Agents: SFT and GRPO on a Browser Task](https://palindromerice.github.io/writing/browser-agent-sft-grpo/): Qwen3.5-0.8B goes from 16% to 84% success on a live browser task, 2026
+- [CAPL: Context-Aware Preference Rules for Steering a Frozen LLM](https://palindromerice.github.io/writing/capl/): Context-scoped preference rules steer a frozen generator, 2026
 
 ## Papers
 
@@ -19,6 +26,10 @@
 
 ## Projects
 
+- [LG TV Remote for Mac](https://github.com/palindromeRice/lgtv-remote-reverse-engineer): Menu-bar remote for LG webOS TVs with a trackpad pointer and power-on from standby
+- [CAPL](https://github.com/palindromeRice/capl): Context-aware preference rules for steering a frozen LLM
+- [Quake II reconstruction](https://github.com/palindromeRice/quake2-llm-decompile): Agent-assisted reconstruction of Quake II gameplay code with a differential test harness
+- [openEnvRL](https://github.com/palindromeRice/openEnvRL): SFT and GRPO for a small model acting in a live browser
 - [Single-Bit Quantization of Transformers/BERT](https://github.com/palindromeRice/SingleBitLLMs): Benchmarks single-bit/ternary quantization strategies inspired by BitNet b1.58 on BERT
 - [T5 Knowledge Distillation for Summarization](https://github.com/palindromeRice/Knowledge_Distillation_T5): Distills a fine-tuned T5-Base summarizer into T5-Small
 - [Mixture-of-Experts Prompt Router](https://github.com/palindromeRice/Moe_demo): Routes prompts to specialized expert models via sentence-embedding similarity
