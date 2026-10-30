@@ -18,6 +18,14 @@ permalink: /projects/
 <div class="proj-page">
   <div class="proj-grid">
     <div class="proj-card">
+      <a href="https://github.com/palindromeRice/lgtv-remote-reverse-engineer" target="_blank" rel="noopener">
+        <img src="/assets/img/projects/lgtv-remote.jpg" alt="LG TV Remote for Mac" loading="lazy">
+        <span class="proj-title">LG TV Remote for Mac</span>
+      </a>
+      <div class="proj-desc">Menu-bar remote for LG webOS TVs over the local network: buttons, a trackpad pointer, playback and power-on from standby, each confirmed on a real TV · 2026</div>
+      <div class="proj-links"><a href="https://github.com/palindromeRice/lgtv-remote-reverse-engineer" target="_blank" rel="noopener">Code</a></div>
+    </div>
+    <div class="proj-card">
       <a href="https://github.com/palindromeRice/capl" target="_blank" rel="noopener">
         <img src="/assets/img/projects/capl.jpg" alt="CAPL: Context-Aware Preference Rules for Steering a Frozen LLM" loading="lazy">
         <span class="proj-title">CAPL: Context-Aware Preference Rules for Steering a Frozen LLM</span>

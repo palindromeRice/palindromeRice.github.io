@@ -54,6 +54,11 @@ permalink: /writing/
   </div>
 
   <div class="blog-entry" data-type="articles">
+    <a href="/writing/lgtv-remote/" class="blog-title">I Keep Losing My TV Remote, So I Turned My Mac Into One</a>
+    <span class="blog-date">30/10/2026</span>
+  </div>
+
+  <div class="blog-entry" data-type="articles">
     <a href="/writing/quake2-reconstruction/" class="blog-title">Agent-Assisted Reconstruction of Quake II Gameplay Code</a>
     <span class="blog-date">23/10/2026</span>
   </div>
