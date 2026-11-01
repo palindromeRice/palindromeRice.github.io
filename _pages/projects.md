@@ -23,7 +23,7 @@ permalink: /projects/
         <span class="proj-title">The Distant Crush Neuron: Single-Neuron Steering of Social Warmth in Qwen3.5-4B</span>
       </a>
       <div class="proj-desc">Pushing one MLP neuron (layer 9, neuron 7515) at inference makes a chat character cooler or warmer on demand; blind distance 2.8 vs 1.1 unsteered vs 1.2-2.0 for random neurons; no weight changes · 2026</div>
-      <div class="proj-links"><a href="https://github.com/palindromeRice/qwen-hot-cold-neuron" target="_blank" rel="noopener">Code</a> <a href="/writing/qwen-neuron/">Article</a></div>
+      <div class="proj-links"><a href="https://github.com/palindromeRice/qwen-hot-cold-neuron" target="_blank" rel="noopener">Code</a> <a href="/writing/qwen-neuron/">Article</a> <a href="https://www.linkedin.com/posts/naman-chawla-0563032b5_llm-interpretability-ai-activity-7522686484823568384-TpIf" target="_blank" rel="noopener">LinkedIn post</a> <a href="https://x.com/palindromeRice/status/2116926418420748363" target="_blank" rel="noopener">X post</a></div>
     </div>
     <div class="proj-card">
       <a href="https://github.com/palindromeRice/lgtv-remote-reverse-engineer" target="_blank" rel="noopener">
