@@ -163,6 +163,10 @@ With no character prompt, on six general assistant tasks, the push only slightly
 
 One MLP neuron in Qwen3.5-4B, found by contrasting guarded and eager replies written in character, moves a chat character between distant and warm in proportion to the dose, and switching its sign between messages produces a hot-and-cold distant crush. The effect is specific to this neuron compared with random neurons from the same layer, agrees across three independent model raters and a blind human review. Its costs, dodged questions and occasional breaks in character, are part of the result.
 
+## Code Availability
+
+The steering code, evaluation scripts, blind ratings and human review are available at [https://github.com/palindromeRice/qwen-hot-cold-neuron](https://github.com/palindromeRice/qwen-hot-cold-neuron).
+
 ## References
 
 1. Mor Geva, Roei Schuster, Jonathan Berant, and Omer Levy. 2021. [Transformer Feed-Forward Layers Are Key-Value Memories](https://arxiv.org/abs/2012.14913). *Proceedings of EMNLP 2021*.

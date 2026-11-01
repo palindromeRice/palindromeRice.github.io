@@ -27,7 +27,7 @@
 
 ## Projects
 
-- [Qwen3.5-4B neuron steering](https://palindromerice.github.io/writing/qwen-neuron/): One MLP neuron that turns a chat character warmer or cooler at inference, with no weight changes
+- [Qwen hot-cold neuron](https://github.com/palindromeRice/qwen-hot-cold-neuron): One MLP neuron that turns a chat character warmer or cooler at inference, with no weight changes
 - [LG TV Remote for Mac](https://github.com/palindromeRice/lgtv-remote-reverse-engineer): Menu-bar remote for LG webOS TVs with a trackpad pointer and power-on from standby
 - [CAPL](https://github.com/palindromeRice/capl): Context-aware preference rules for steering a frozen LLM
 - [Quake II reconstruction](https://github.com/palindromeRice/quake2-llm-decompile): Agent-assisted reconstruction of Quake II gameplay code with a differential test harness
