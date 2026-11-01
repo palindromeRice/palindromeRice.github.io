@@ -80,7 +80,7 @@ Figure 1 shows the dose sweep. As the push grows on the cool side, distance rise
 
 ### 4.3 Single messages
 
-Table 1 reports the final round: nine fresh prompts, three seeds each, with the firmer character prompt.
+Table 1 reports the final round: eight fresh social prompts, three seeds each, with the firmer character prompt.
 
 *Table 1. Mean blind distance (1 to 5) for single messages.*
 
@@ -91,7 +91,7 @@ Table 1 reports the final round: nine fresh prompts, three seeds each, with the 
 | `L9N7515`, +0.3 | 2.92 | 2.96 | 2.58 |
 | `L9N7515`, +0.4 | 3.21 | 3.29 | 3.08 |
 
-The raters agree closely: two of them gave exactly the same distance score to 256 of 324 replies. In an earlier round against five random neurons, the target averaged 2.69 against 1.42 to 1.65 (unsteered 1.43) and was the most distant condition in 19 of 24 combinations of prompt and character. The count of eager phrases fell from 0.85 to 0.24 per reply.
+The raters agree closely: two of them gave exactly the same distance score to 256 of 324 replies. In an earlier round against five random neurons, the target averaged 2.69 against 1.42 to 1.65 (unsteered 1.43) and was the most distant of the steered conditions, or tied for it, in 19 of 24 combinations of prompt and character. The share of replies containing eager phrases fell from 85% to about 24%.
 
 Table 2 shows what this looks like. The replies are greedy, so they come out the same on every run and only the dose differs.
 
