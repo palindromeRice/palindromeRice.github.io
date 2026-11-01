@@ -18,12 +18,20 @@ permalink: /projects/
 <div class="proj-page">
   <div class="proj-grid">
     <div class="proj-card">
+      <a href="/writing/qwen-neuron/">
+        <img src="/assets/img/projects/qwen-neuron.jpg" alt="The Distant Crush Neuron: Single-Neuron Steering of Social Warmth in Qwen3.5-4B" loading="lazy">
+        <span class="proj-title">The Distant Crush Neuron: Single-Neuron Steering of Social Warmth in Qwen3.5-4B</span>
+      </a>
+      <div class="proj-desc">Pushing one MLP neuron (layer 9, neuron 7515) at inference makes a chat character cooler or warmer on demand; blind distance 2.8 vs 1.1 unsteered vs 1.2-2.0 for random neurons; no weight changes · 2026</div>
+      <div class="proj-links"><a href="/writing/qwen-neuron/">Article</a></div>
+    </div>
+    <div class="proj-card">
       <a href="https://github.com/palindromeRice/lgtv-remote-reverse-engineer" target="_blank" rel="noopener">
         <img src="/assets/img/projects/lgtv-remote.jpg" alt="LG TV Remote for Mac" loading="lazy">
         <span class="proj-title">LG TV Remote for Mac</span>
       </a>
       <div class="proj-desc">Menu-bar remote for LG webOS TVs over the local network: buttons, a trackpad pointer, playback and power-on from standby, each confirmed on a real TV · 2026</div>
-      <div class="proj-links"><a href="https://github.com/palindromeRice/lgtv-remote-reverse-engineer" target="_blank" rel="noopener">Code</a></div>
+      <div class="proj-links"><a href="https://github.com/palindromeRice/lgtv-remote-reverse-engineer" target="_blank" rel="noopener">Code</a> <a href="https://www.linkedin.com/posts/naman-chawla-0563032b5_macos-opensource-sideproject-ugcPost-7521995297703636993-7oOQ/" target="_blank" rel="noopener">LinkedIn post</a> <a href="https://x.com/palindromeRice/status/2116233172828762511" target="_blank" rel="noopener">X post</a></div>
     </div>
     <div class="proj-card">
       <a href="https://github.com/palindromeRice/capl" target="_blank" rel="noopener">
@@ -31,7 +39,7 @@ permalink: /projects/
         <span class="proj-title">CAPL: Context-Aware Preference Rules for Steering a Frozen LLM</span>
       </a>
       <div class="proj-desc">A small model writes context-scoped preference rules that steer a frozen 9B generator; 71.25% style-rule satisfaction vs 58.33% for a static profile · 2026</div>
-      <div class="proj-links"><a href="https://github.com/palindromeRice/capl" target="_blank" rel="noopener">Code</a></div>
+      <div class="proj-links"><a href="https://github.com/palindromeRice/capl" target="_blank" rel="noopener">Code</a> <a href="https://www.linkedin.com/posts/naman-chawla-0563032b5_llm-machinelearning-personalization-share-7521993195224915968-2PWf/" target="_blank" rel="noopener">LinkedIn post</a> <a href="https://x.com/palindromeRice/status/2116231788632875040" target="_blank" rel="noopener">X post</a></div>
     </div>
     <div class="proj-card">
       <a href="https://github.com/palindromeRice/quake2-llm-decompile" target="_blank" rel="noopener">
@@ -39,7 +47,7 @@ permalink: /projects/
         <span class="proj-title">Agent-Assisted Reconstruction of Quake II Gameplay Code</span>
       </a>
       <div class="proj-desc">Coding agents rewrite decompiled Quake II gameplay functions in C; 99.0% pass a differential harness and the rebuilt module is playable · 2026</div>
-      <div class="proj-links"><a href="https://github.com/palindromeRice/quake2-llm-decompile" target="_blank" rel="noopener">Code</a></div>
+      <div class="proj-links"><a href="https://github.com/palindromeRice/quake2-llm-decompile" target="_blank" rel="noopener">Code</a> <a href="https://www.linkedin.com/posts/naman-chawla-0563032b5_reverseengineering-decompilation-aiagents-ugcPost-7521994544436150272-f4__/" target="_blank" rel="noopener">LinkedIn post</a> <a href="https://x.com/palindromeRice/status/2116232906205274548" target="_blank" rel="noopener">X post</a></div>
     </div>
     <div class="proj-card">
       <a href="https://github.com/palindromeRice/openEnvRL" target="_blank" rel="noopener">
@@ -47,7 +55,7 @@ permalink: /projects/
         <span class="proj-title">Small Models as Agents: SFT and GRPO on a Browser Task</span>
       </a>
       <div class="proj-desc">SFT then online GRPO in a live browser takes Qwen3.5-0.8B from 16% to 84% exact-match success on MiniWoB++ click-checkboxes · 2026</div>
-      <div class="proj-links"><a href="https://github.com/palindromeRice/openEnvRL" target="_blank" rel="noopener">Code</a></div>
+      <div class="proj-links"><a href="https://github.com/palindromeRice/openEnvRL" target="_blank" rel="noopener">Code</a> <a href="https://www.linkedin.com/posts/naman-chawla-0563032b5_reinforcementlearning-llm-machinelearning-share-7521993881396305921-4cxg/" target="_blank" rel="noopener">LinkedIn post</a> <a href="https://x.com/palindromeRice/status/2116232177310675381" target="_blank" rel="noopener">X post</a></div>
     </div>
 
     <div class="proj-card">

@@ -54,6 +54,11 @@ permalink: /writing/
   </div>
 
   <div class="blog-entry" data-type="articles">
+    <a href="/writing/qwen-neuron/" class="blog-title">The Distant Crush Neuron: Single-Neuron Steering of Social Warmth in Qwen3.5-4B</a>
+    <span class="blog-date">01/11/2026</span>
+  </div>
+
+  <div class="blog-entry" data-type="articles">
     <a href="/writing/lgtv-remote/" class="blog-title">I Keep Losing My TV Remote, So I Turned My Mac Into One</a>
     <span class="blog-date">30/10/2026</span>
   </div>
