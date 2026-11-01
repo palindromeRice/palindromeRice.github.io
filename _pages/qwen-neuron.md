@@ -28,8 +28,6 @@ This study aims at something harder to inject than a keyword: an interpersonal s
 
 **Activation steering.** ActAdd [3] steers a model by adding the difference between its activations on two contrasting prompts. Contrastive Activation Addition [4] averages such differences over many paired examples of a behavior and adds the result during generation. Persona Vectors [11] apply this to character traits, extracting one direction per trait to both monitor and control it. These methods steer along directions that span the whole residual stream. This study borrows their contrastive idea but restricts the intervention to one neuron.
 
-**Feature steering.** Golden Gate Claude [12] amplified a feature learned by a sparse autoencoder to give a model a fixed obsession. Such a feature is a learned combination of activations rather than a single neuron, so it shows that concept-level steering works without telling us which neuron to push.
-
 **Single-neuron recipes and audits.** Neuron-explorer [5] and Neuronary [6] are the source of the single-neuron method used here, including how the dose is scaled. Watson [7] tested community recipes against random neurons pushed equally hard and found that some traits replicate and others do not, often at pushes far beyond a neuron's natural range. A follow-up with sampled replies [8] found that a neuron's steered effect can differ from what it appears to encode. Bowling [9] reports recipes that do nothing or fail under quantization. These results shaped the controls used here.
 
 ## 3. Method
@@ -178,4 +176,3 @@ One MLP neuron in Qwen3.5-4B, found by contrasting guarded and eager replies wri
 9. Martin Bowling. 2026. [I Audited the Viral Qwen Neuron Zoo](https://martinbowling.com/i-audited-the-viral-qwen-neuron-zoo). martinbowling.com.
 10. Qwen Team. 2026. [Qwen3.5-4B model card](https://huggingface.co/Qwen/Qwen3.5-4B). Hugging Face.
 11. Runjin Chen, Andy Arditi, Henry Sleight, Owain Evans, and Jack Lindsey. 2025. [Persona Vectors: Monitoring and Controlling Character Traits in Language Models](https://arxiv.org/abs/2507.21509). arXiv:2507.21509.
-12. Anthropic. 2024. [Golden Gate Claude](https://www.anthropic.com/research/golden-gate-claude).
