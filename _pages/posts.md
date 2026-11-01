@@ -79,18 +79,51 @@ permalink: /writing/
   </div>
 
   <div class="blog-entry" data-type="thoughts">
-    <a href="https://www.linkedin.com/posts/naman-chawla-0563032b5_ai-machinelearning-quantization-share-7329875085433991169-ebNV/" class="blog-title" target="_blank" rel="noopener">Single-Bit Quantization in NLP: An Experiment with BitNet b1.58</a>
-    <span class="blog-date">05.18.25</span>
+    <span class="blog-title">I found the neuron that makes an AI play hard to get</span>
+    <span class="blog-date">01/11/2026</span>
+    <span class="post-icons"><a href="https://www.linkedin.com/posts/naman-chawla-0563032b5_llm-interpretability-ai-activity-7522686484823568384-TpIf" target="_blank" rel="noopener" aria-label="LinkedIn post"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a><a href="https://x.com/palindromeRice/status/2116926418420748363" target="_blank" rel="noopener" aria-label="X post"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.67l7.73-8.84L1.25 2.25h6.83l4.71 6.23 5.45-6.23zm-1.16 17.52h1.83L7.08 4.13H5.12l11.96 15.64z"/></svg></a></span>
   </div>
 
   <div class="blog-entry" data-type="thoughts">
-    <a href="https://www.linkedin.com/posts/naman-chawla-0563032b5_github-palindromericeknowledgedistillationt5-share-7320404661834825728-HQG4/" class="blog-title" target="_blank" rel="noopener">NVIDIA’s Llama 3.1 Nemotron Ultra and Knowledge Distillation</a>
-    <span class="blog-date">04.22.25</span>
+    <span class="blog-title">I keep losing my TV remote, so I turned my Mac into one</span>
+    <span class="blog-date">30/10/2026</span>
+    <span class="post-icons"><a href="https://www.linkedin.com/posts/naman-chawla-0563032b5_macos-opensource-sideproject-ugcPost-7521995297703636993-7oOQ/" target="_blank" rel="noopener" aria-label="LinkedIn post"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a><a href="https://x.com/palindromeRice/status/2116233172828762511" target="_blank" rel="noopener" aria-label="X post"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.67l7.73-8.84L1.25 2.25h6.83l4.71 6.23 5.45-6.23zm-1.16 17.52h1.83L7.08 4.13H5.12l11.96 15.64z"/></svg></a></span>
   </div>
 
   <div class="blog-entry" data-type="thoughts">
-    <a href="https://www.linkedin.com/posts/naman-chawla-0563032b5_github-palindromericemoedemo-share-7317525096191979520-FJM6/" class="blog-title" target="_blank" rel="noopener">From Dense to Decisive: How Meta’s Llama 4 Reinvents AI with Experts</a>
-    <span class="blog-date">04.14.25</span>
+    <span class="blog-title">Can AI agents recover a game's source code from the finished program?</span>
+    <span class="blog-date">30/10/2026</span>
+    <span class="post-icons"><a href="https://www.linkedin.com/posts/naman-chawla-0563032b5_reverseengineering-decompilation-aiagents-ugcPost-7521994544436150272-f4__/" target="_blank" rel="noopener" aria-label="LinkedIn post"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a><a href="https://x.com/palindromeRice/status/2116232906205274548" target="_blank" rel="noopener" aria-label="X post"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.67l7.73-8.84L1.25 2.25h6.83l4.71 6.23 5.45-6.23zm-1.16 17.52h1.83L7.08 4.13H5.12l11.96 15.64z"/></svg></a></span>
+  </div>
+
+  <div class="blog-entry" data-type="thoughts">
+    <span class="blog-title">Can a very small AI model learn to use a website?</span>
+    <span class="blog-date">30/10/2026</span>
+    <span class="post-icons"><a href="https://www.linkedin.com/posts/naman-chawla-0563032b5_reinforcementlearning-llm-machinelearning-share-7521993881396305921-4cxg/" target="_blank" rel="noopener" aria-label="LinkedIn post"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a><a href="https://x.com/palindromeRice/status/2116232177310675381" target="_blank" rel="noopener" aria-label="X post"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.67l7.73-8.84L1.25 2.25h6.83l4.71 6.23 5.45-6.23zm-1.16 17.52h1.83L7.08 4.13H5.12l11.96 15.64z"/></svg></a></span>
+  </div>
+
+  <div class="blog-entry" data-type="thoughts">
+    <span class="blog-title">Teaching an AI assistant when your preferences apply</span>
+    <span class="blog-date">30/10/2026</span>
+    <span class="post-icons"><a href="https://www.linkedin.com/posts/naman-chawla-0563032b5_llm-machinelearning-personalization-share-7521993195224915968-2PWf/" target="_blank" rel="noopener" aria-label="LinkedIn post"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a><a href="https://x.com/palindromeRice/status/2116231788632875040" target="_blank" rel="noopener" aria-label="X post"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M18.24 2.25h3.31l-7.23 8.26 8.5 11.24h-6.66l-5.21-6.82-5.97 6.82H1.67l7.73-8.84L1.25 2.25h6.83l4.71 6.23 5.45-6.23zm-1.16 17.52h1.83L7.08 4.13H5.12l11.96 15.64z"/></svg></a></span>
+  </div>
+
+  <div class="blog-entry" data-type="thoughts">
+    <span class="blog-title">Single-Bit Quantization in NLP: An Experiment with BitNet b1.58</span>
+    <span class="blog-date">18/05/2025</span>
+    <span class="post-icons"><a href="https://www.linkedin.com/posts/naman-chawla-0563032b5_ai-machinelearning-quantization-share-7329875085433991169-ebNV/" target="_blank" rel="noopener" aria-label="LinkedIn post"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></span>
+  </div>
+
+  <div class="blog-entry" data-type="thoughts">
+    <span class="blog-title">NVIDIA’s Llama 3.1 Nemotron Ultra and Knowledge Distillation</span>
+    <span class="blog-date">22/04/2025</span>
+    <span class="post-icons"><a href="https://www.linkedin.com/posts/naman-chawla-0563032b5_github-palindromericeknowledgedistillationt5-share-7320404661834825728-HQG4/" target="_blank" rel="noopener" aria-label="LinkedIn post"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></span>
+  </div>
+
+  <div class="blog-entry" data-type="thoughts">
+    <span class="blog-title">From Dense to Decisive: How Meta’s Llama 4 Reinvents AI with Experts</span>
+    <span class="blog-date">14/04/2025</span>
+    <span class="post-icons"><a href="https://www.linkedin.com/posts/naman-chawla-0563032b5_github-palindromericemoedemo-share-7317525096191979520-FJM6/" target="_blank" rel="noopener" aria-label="LinkedIn post"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.02-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.13 2.06 2.06 0 0 1 0 4.13zM7.12 20.45H3.56V9h3.56v11.45zM22.22 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.73V1.73C24 .77 23.2 0 22.22 0z"/></svg></a></span>
   </div>
 
   <p class="blog-more">All papers on <a href="https://scholar.google.com/citations?user=Hq_k3_wAAAAJ&hl=en" target="_blank" rel="noopener">Google Scholar</a>.</p>
@@ -134,6 +167,14 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 
 <style>
+
+/* Posts tab: LinkedIn and X icons after the date */
+.post-icons { flex: 0 0 42px; display: inline-flex; gap: 0.6rem; align-self: center; }
+.post-icons a { display: inline-flex; color: #1a1a1a; border-bottom: none !important; text-decoration: none !important; }
+.post-icons a:hover { color: #2437e7; }
+.post-icons svg { width: 15px; height: 15px; fill: currentColor; }
+.blog-entry[data-type="thoughts"]:hover .blog-title { color: #043976 !important; }
+.blog-entry[data-type="thoughts"]:hover .blog-date { color: #9aa4b2 !important; }
 /* Header + nav come from the shared site CSS (main.css) via the splash layout,
    so this page matches Home and Papers exactly (background, zoom, header). */
 
