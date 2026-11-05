@@ -10,6 +10,7 @@
 
 ## Articles
 
+- [Looping in Qwen3.5-0.8B: A Published Weight Edit vs. Turning Thinking Off](https://palindromerice.github.io/writing/weight-repair/): Re-running a released weight edit of Qwen3.5-0.8B: the MATH-500 gain reproduces, and thinking off reaches similar accuracy with a third of the tokens, 2026
 - [The Distant Crush Neuron: Single-Neuron Steering of Social Warmth in Qwen3.5-4B](https://palindromerice.github.io/writing/qwen-neuron/): Steering one MLP neuron at inference makes a chat character cooler or warmer, checked by blind raters against random-neuron controls, 2026
 - [I Keep Losing My TV Remote, So I Turned My Mac Into One](https://palindromerice.github.io/writing/lgtv-remote/): A Mac menu-bar remote for LG webOS TVs over the local network, 2026
 - [Agent-Assisted Reconstruction of Quake II Gameplay Code](https://palindromerice.github.io/writing/quake2-reconstruction/): Coding agents rebuild Quake II's gameplay module from stripped binaries; 99.0% of testable functions match and the module is playable, 2026

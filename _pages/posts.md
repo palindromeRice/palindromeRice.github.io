@@ -54,6 +54,11 @@ permalink: /writing/
   </div>
 
   <div class="blog-entry" data-type="articles">
+    <a href="/writing/weight-repair/" class="blog-title">Looping in Qwen3.5-0.8B: A Published Weight Edit vs. Turning Thinking Off</a>
+    <span class="blog-date">05/11/2026</span>
+  </div>
+
+  <div class="blog-entry" data-type="articles">
     <a href="/writing/qwen-neuron/" class="blog-title">The Distant Crush Neuron: Single-Neuron Steering of Social Warmth in Qwen3.5-4B</a>
     <span class="blog-date">01/11/2026</span>
   </div>
