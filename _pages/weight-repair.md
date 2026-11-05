@@ -1,11 +1,11 @@
 ---
 layout: article
-title: "Replaying a Published Weight Edit of Qwen3.5-0.8B on MATH-500"
+title: "Looping in Qwen3.5-0.8B: A Published Weight Edit vs. Turning Thinking Off"
 description: "I re-run a publicly released weight edit of Qwen3.5-0.8B on MATH-500: its reported gain reproduces, and the unedited model with thinking turned off reaches similar accuracy with a third of the tokens."
 permalink: /writing/weight-repair/
 date: 2026-11-05
 ---
-# Replaying a Published Weight Edit of Qwen3.5-0.8B on MATH-500
+# Looping in Qwen3.5-0.8B: A Published Weight Edit vs. Turning Thinking Off
 
 ## Abstract
 
